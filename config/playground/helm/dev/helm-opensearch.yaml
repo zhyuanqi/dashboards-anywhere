@@ -99,7 +99,7 @@ image:
   repository: "opensearchproject/opensearch"
 # override image tag, which is .Chart.AppVersion by default
 imageTag: ""
-imagePullPolicy: "IfNotPresent"
+imagePullPolicy: "Always"
 
 podAnnotations: {}
 
