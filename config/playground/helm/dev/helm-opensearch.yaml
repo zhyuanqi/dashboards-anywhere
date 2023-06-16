@@ -17,7 +17,7 @@ roles:
 replicas: 5
 minimumMasterNodes: 2
 
-# if not set, falls back to parsing .Values.imageTag, then .Chart.appVersion.
+# test-changes if not set, falls back to parsing .Values.imageTag, then .Chart.appVersion.
 majorVersion: "7"
 
 #global:
