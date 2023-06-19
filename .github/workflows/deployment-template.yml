@@ -148,7 +148,7 @@ jobs:
 
       - name: Step 9 - Deploy OpenSearch/OpenSearch Dashboards/ML By Helm Chart
         if: ${{ (inputs.deploy-env == 'dev') || (inputs.deploy-env == 'prod') || (inputs.deploy-env == 'ml') }}
-        uses: elastic-analytics/dashboards-action@main
+        uses: elastic-analytics/dashboards-action@aae9e9d7c1b5ff0734496c5616ee8dd694731096
         env:
           KUBE_CONFIG_DATA: ${{ secrets.kube-config }}
         with:
