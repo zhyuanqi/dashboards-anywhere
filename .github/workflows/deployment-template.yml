@@ -157,7 +157,6 @@ jobs:
           # of OS and OSD as it only takes 23 seconds for the process, will add
           # blue/green deployment later.
           command: |
-            echo 'Hello'
             # helm repo add opensearch ${{ inputs.helm-repo }}
             # helm repo update
             # helm search repo opensearch
