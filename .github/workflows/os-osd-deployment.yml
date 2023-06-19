@@ -28,6 +28,7 @@ jobs:
           filters: |
             dev:
               - 'config/playground/helm/dev/**'
+              - '.github/workflows/'
             prod:
               - 'config/playground/helm/prod/**'
             ml:
